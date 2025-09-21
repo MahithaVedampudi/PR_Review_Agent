@@ -68,6 +68,8 @@ This will start a local server. You can access your project by navigating to `ht
 ## **Live Deployment**
 
 To make this project accessible via a live URL, the command-line interface was wrapped in a simple web framework. The hosted application provides a web form where users can submit a GitHub URL and PR number to get an instant AI-powered review.
+<img width="1064" height="514" alt="image" src="https://github.com/user-attachments/assets/1686adab-53d8-4573-a97c-083ceb170e2d" />
+
 
 ## **Submission Details**
 
