@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI-Powered PR Review Agent</title>
+    <style>
+        body { font-family: sans-serif; max-width: 800px; margin: auto; padding: 20px; line-height: 1.6; }
+        h1, h2 { text-align: center; }
+        form { display: flex; flex-direction: column; gap: 10px; margin-bottom: 20px; }
+        input, button { padding: 10px; font-size: 16px; }
+        pre { background-color: #f4f4f4; padding: 15px; border-radius: 5px; white-space: pre-wrap; word-wrap: break-word; }
+    </style>
+</head>
+<body>
+    <h1>AI-Powered PR Review Agent</h1>
+    <p>Enter the details of a GitHub Pull Request to get an instant AI-powered code review.</p>
+    <form method="POST">
+        <input type="text" name="repo_owner" placeholder="Repository Owner (e.g., octocat)" required>
+        <input type="text" name="repo_name" placeholder="Repository Name (e.g., Spoon-Knife)" required>
+        <input type="number" name="pr_number" placeholder="Pull Request Number" required>
+        <button type="submit">Get AI Review</button>
+    </form>
+
+    <h2>AI Review Results</h2>
+    <pre>{{ feedback }}</pre>
+</body>
+</html>
